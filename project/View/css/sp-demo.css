@@ -1,0 +1,199 @@
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+/* ============ banner ============ */
+#banner {
+    background: url(../images/banner-sp-demo.jpg) no-repeat;
+    background-position: 50% center;
+    background-size: cover;
+}
+
+/* ============ Section đặc điểm nổi bật ============ */
+.dac-diem-noi-bat {
+    background-color: #f7faff;
+}
+.dac-diem-noi-bat .content {
+    height: fit-content;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dac-diem-noi-bat .content .column {
+    padding: 20px;
+    width: calc(100% / 3);
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.dac-diem-noi-bat .column img {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/* ============ Section Ứng dụng thực tế ============ */
+.ung-dung-thuc-te .content {
+    max-width: 1280px;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.ung-dung-thuc-te .content .column {
+    height: fit-content;
+    width: calc(100% / 3);
+    padding:0px 20px;
+    box-sizing: border-box;
+}
+.ung-dung-thuc-te .column img {
+    width: 100%;
+    height: 300px;
+}
+
+.dac-diem-noi-bat p, .ung-dung-thuc-te p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(2, 72, 142);
+    font-weight: bold;
+}
+
+/* ============ Section DEMO ==================== */
+.demo {
+    background-color: rgb(220, 220, 220);
+    height: fit-content;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.demo .row {
+    max-width: 1280px;
+    height: fit-content;
+    margin: 0 auto;
+}
+.demo .column {
+    width: 50%;
+    max-height: 520px;
+    padding: 0px 50px 0px;
+    box-sizing: border-box;
+}
+.demo .column:nth-child(1) {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.demo .column p {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0px;
+    padding: 20px;
+    box-sizing: border-box;
+}   
+
+.demo .btns {
+    margin-top: 20px;
+}
+.demo label, .demo button {
+    text-align: center;
+    display: block ;
+    box-sizing: border-box;
+    border: 1px solid rgb(39, 185, 232);
+    border-radius: 5px;
+    float: left;
+    max-height: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.demo label:hover , .demo button:hover {
+    background-color: rgb(2, 72, 142);
+}
+
+.demo label {
+    width: calc(100% - 170px);
+    margin-right: 20px;
+}
+.icon_update {
+    margin-right: 10px;
+    position: relative;
+    top: 2px;
+}
+.demo button {
+    color: #fff;
+    background-color: rgb(39, 185, 232);
+    padding: 0px;
+    width: 150px;
+}
+
+/* mobole and tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* mobole */
+@media (max-width: 480px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .ung-dung-thuc-te .column img {
+        height: 250px;
+    }
+
+    .dac-diem-noi-bat .content .column {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .dac-diem-noi-bat .column p {
+        width: calc(100% - 100px);
+        margin-top: 10px;
+    }
+}
+
+/* mobole and Tablet small */
+@media (max-width: 739px) {
+    .ung-dung-thuc-te .row {
+        flex-direction: column;
+    }
+    .ung-dung-thuc-te p {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .ung-dung-thuc-te .content .column {
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    /* demo */
+    .demo .column {
+        width: 100%;
+        max-width: 540px;
+        padding: 0px 20px 0px;
+        display: block;
+        margin: 0 auto;
+    }
+    .demo .column:nth-child(2) {
+        display: none;
+    }
+    .demo label, .demo button {
+        width: calc((100% / 2) - 5px);
+    }
+    .demo label {   
+        margin-right: 10px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and  (max-width: 1023px) {
+    .ung-dung-thuc-te .column img {
+        height: 200px;
+    }
+}

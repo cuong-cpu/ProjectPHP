@@ -1,0 +1,179 @@
+/* ============ banner ============ */
+#banner {
+    background: url(../images/banner-trang-chu.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* ============ Gới thiệu ============ */
+.goi-thieu .content {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: fit-content;
+    box-sizing: border-box;
+}
+.goi-thieu .content .column {
+    float: left;
+    width: 50%;
+    height: 270px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+.goi-thieu .content p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    width: 100%;
+    color: rgb(2, 72, 142);
+    text-align: justify;
+}
+/* ============ linh-vuc-nghiem-cuu ============*/
+.linh-vuc-nghiem-cuu {
+    min-height: 420px;
+    width: 100%;
+    padding-bottom: 50px;
+    background: url(../images/background-linh-vuc-nghien-cuu.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.linh-vuc-nghiem-cuu .content {
+    height: 100%;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.linh-vuc-nghiem-cuu .column {
+    width: calc(100% / 3);
+    height: fit-content;
+    padding: 0px 50px;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    color: rgb(2, 72, 142);
+}
+
+.linh-vuc-nghiem-cuu .column .icon {
+    height: 100px;
+    width: 100%;
+}
+.linh-vuc-nghiem-cuu .icon img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.linh-vuc-nghiem-cuu .heading {
+    font-size: 20px;
+}
+.linh-vuc-nghiem-cuu p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* ==== team ai ==== */
+.team-ai  {
+    background:linear-gradient(rgb(255, 255, 255), rgb(229, 239, 246), rgb(255, 255, 255));
+}
+.team-ai .content {
+    width: 100%;
+    max-width: 1280px;
+    margin:0 auto;
+    height: fit-content;
+    padding: 0px 50px 50px;
+    box-sizing: border-box;
+}
+
+.team-ai .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.team-ai .column {
+    width: calc((100% / 3) - (100px / 3));
+    max-width: 320px;
+    min-width: 270px;
+    height: fit-content;
+    padding: 15px;
+    box-shadow: 0px 0px 10px #000;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.team-ai .top img {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.team-ai .botton .heading {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    color: rgb(2, 72, 142);
+}
+.team-ai .botton p {
+    text-align: center;
+    margin: 0px;
+    display: block;
+    color: rgb(2, 72, 142);
+}
+
+/* Tablet and moble */
+@media (max-width: 1023px) {
+    .goi-thieu .content .column:nth-child(2) {
+        display: none;
+    }
+    .goi-thieu .content .column {
+        width: 100%;
+        height: fit-content;
+        padding: 0px 20px;
+    }
+
+    .team-ai .content {
+        padding: 0px 20px 50px;
+    }
+    .team-ai .column {
+        margin: 0 auto;
+    }
+    .team-ai .column:nth-child(3) {
+        margin-bottom: 0px;
+    }
+    .team-ai .botton .heading {
+        font-size: 16px;
+    }
+}
+
+/* Moble */
+@media (max-width: 739px) {
+    .team-ai .row {
+        flex-direction: column;
+    }
+    .team-ai .column {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .linh-vuc-nghiem-cuu {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .linh-vuc-nghiem-cuu .column {
+        padding: 0px 20px;
+    }
+    .team-ai .column {
+        margin-bottom: 70px;
+    }
+}

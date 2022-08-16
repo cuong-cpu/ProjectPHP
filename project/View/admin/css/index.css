@@ -1,0 +1,231 @@
+.cl-fl {
+    clear: both;
+}
+
+body {
+    margin: 0px;
+}
+.row {
+    display: flex;
+}
+/* header */
+.header {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* ========== column left ========== */
+.column-left {
+    height: 100vh;
+    background-color: rgb(35, 35, 39);
+    color: #fff;
+    box-sizing: border-box;
+    z-index: 2;
+    width: 300px;
+    position: fixed;
+}
+.column-left i {
+    margin-right: 10px;
+}
+
+/* nav */
+.column-left .nav {
+    box-sizing: border-box;
+    height: fit-content;
+    width: 100%;
+    padding: 0px 20px;
+}
+.column-left .nav_item {
+    display: block;
+    border: 0px;
+    color: #fff;
+    background-color: rgb(35, 35, 39);
+    margin-top: 20px;
+    font-size: 18px;
+}
+.column-left .nav_item:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+/* btn_logout */
+#btn_logout {
+    font-weight: bold;
+    border: 0px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#btn_logout:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+
+/* ========== column right ==========  */
+h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+hr {
+    margin-bottom: 0px;
+}
+.column-right {
+    width: calc(100vw - 300px);
+    margin-left: 300px;
+}
+
+.header-right {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+
+/* box infor user */
+.box_infor_user {
+    position: absolute;
+    right: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_background_user {
+    font-size: 25px;
+    color: #fff;
+}
+.box_infor_user span {
+    display: block;
+    margin-right: 20px;
+    text-align: left;
+}
+
+#name_user {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+#phone_user {
+    opacity: 0.8;
+}
+
+/* column right button */
+.column-right-button {
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.form_insert {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.form_insert span {
+    height: 30px;
+    color: red;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 14px;
+    display: block;
+}
+
+.form_insert input, select{
+    width: 250px;
+    margin-right: 50px;
+    padding: 5px 10px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.form_insert button {
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(2, 142, 252);
+    background-color: rgb(2, 142, 252);
+    color: #fff;
+    padding:0px 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.form_insert button:hover {
+    background-color: rgb(2, 32, 142);
+}
+
+/* table */
+table {
+    margin-top: 30px;
+    text-align: center;
+}
+.column-firts {
+    width: 50px;
+}
+
+.column_update {
+    width: 80px;
+}
+
+table .edit, .delete {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    float: left;
+    border: 0px;
+}
+table .delete {
+    background-color: red;
+    margin-left: 10px;
+}
+table .edit {
+    background-color:rgb(81, 89, 197);
+}
+table i {
+    font-size: 14px;
+    color: #fff;
+}
+
+/* infor edit */
+.infor_edit {
+    margin-top: 30px;
+}
+.infor_edit span {
+    font-weight: bold;
+}
+#edit_trang_thai {
+    width: 150px;
+    margin: 0px;
+    float: left;
+    margin-right: 10px;
+}
+.column_update_contact {
+    width: 200px;
+}

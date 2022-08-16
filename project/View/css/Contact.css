@@ -1,0 +1,106 @@
+/* ========= banner ========= */
+#banner {
+    background: url(../images/banner-lien-he.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% center;
+}
+
+/* ========= thong-tin-lien-he ========= */
+.thong-tin-lien-he .content{
+    max-width: 1080px;
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    padding:0px 20px 140px;
+    box-sizing: border-box;
+}
+.thong-tin-lien-he .row {
+    display: flex;
+    flex-direction: row;
+}
+.thong-tin-lien-he .content .column {
+    width: calc((100% / 2));
+    height: fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ==== Form liên hệ ===== */
+.thong-tin-lien-he .content .form-lien-he {
+    max-width: 100%;
+    width: 400px;
+    height:fit-content;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #ccc;
+    box-sizing: border-box;
+}
+
+.thong-tin-lien-he .form-lien-he h3 {
+    font-size: 20px;
+    color: rgb(2, 72, 142);
+    margin: 0px;
+}
+
+.thong-tin-lien-he .form-lien-he span {
+    height: 30px;
+    font-size: 14px;
+    width: 100%;
+    color: red;
+    display: block;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.thong-tin-lien-he .form-lien-he input, textarea{
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+.thong-tin-lien-he .form-lien-he button {
+    border: 0px;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: rgb(39, 185, 232);
+    border: 2px solid rgb(39, 185, 232);
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.thong-tin-lien-he .form-lien-he button:hover {
+    background-color: rgb(2, 72, 142);
+}
+
+/* text bên phải */
+.thong-tin-lien-he p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: rgb(2, 72, 142);
+    width: 100%;
+}
+.thong-tin-lien-he i {
+    color: rgb(39, 185, 232);
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Moble and tablet */
+@media (max-width : 1023px) {
+    .thong-tin-lien-he .content{
+        padding:0px 20px 50px;
+    }
+
+    .thong-tin-lien-he .content .column:nth-child(2) {
+        display: none;
+    }
+    .thong-tin-lien-he .content .column {
+        width: 100%;
+    }
+}

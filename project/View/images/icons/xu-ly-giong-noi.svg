@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="81px" viewBox="0 0 94 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_speech</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-913.000000, -657.000000)" fill="#00ACD4">
+            <g id="LINH-VUC-NGHIEN-CUU" transform="translate(0.000000, 500.000000)">
+                <g id="Xu-ly-tieng-noi" transform="translate(750.000000, 146.000000)">
+                    <g id="icon_speech" transform="translate(160.000000, 0.000000)">
+                        <g id="Group-2" transform="translate(3.333333, 11.666667)">
+                            <ellipse id="Oval" fill-opacity="0.2" cx="46.6666667" cy="75" rx="41.6666667" ry="5"></ellipse>
+                            <path d="M46.6666667,37.6190476 C51.3952381,37.6190476 55.2095238,33.7761905 55.2095238,29.047619 L55.2380952,11.9047619 C55.2380952,7.16190476 51.4095238,3.33333333 46.6666667,3.33333333 C41.9380952,3.33333333 38.0952381,7.16190476 38.0952381,11.9047619 L38.0952381,29.047619 C38.0952381,33.7761905 41.9380952,37.6190476 46.6666667,37.6190476 Z M61.8095238,29.047619 C61.8095238,37.6190476 54.5666667,43.6190476 46.6666667,43.6190476 C38.7809524,43.6190476 31.5238095,37.6190476 31.5238095,29.047619 L26.6666667,29.047619 C26.6666667,38.8047619 34.4380952,46.8619048 43.8095238,48.247619 L43.8095238,57.6190476 L49.5238095,57.6190476 L49.5238095,48.247619 C58.8952381,46.8619048 66.6666667,38.8047619 66.6666667,29.047619 L61.8095238,29.047619 Z" id="Shape" fill-rule="nonzero"></path>
+                            <g id="Group">
+                                <rect id="Rectangle" x="0" y="18.3333333" width="5" height="20" rx="1.5"></rect>
+                                <rect id="Rectangle-Copy" x="8.33333333" y="8.33333333" width="5" height="40" rx="1.5"></rect>
+                                <rect id="Rectangle-Copy-2" x="16.6666667" y="0" width="5" height="56.6666667" rx="1.5"></rect>
+                                <rect id="Rectangle-Copy-4" x="71.6666667" y="0" width="5" height="56.6666667" rx="1.5"></rect>
+                                <rect id="Rectangle-Copy-5" x="80" y="13.3333333" width="5" height="31.6666667" rx="1.5"></rect>
+                                <rect id="Rectangle-Copy-6" x="88.3333333" y="20" width="5" height="18.3333333" rx="1.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
